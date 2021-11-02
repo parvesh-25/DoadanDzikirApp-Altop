@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidProject/DoadanDzikir/app/src/main/res/drawable/bg_blue_gray.xml" value="0.24114583333333334" />
+        <entry key="..\:/AndroidProject/DoadanDzikir/app/src/main/res/drawable/bg_btn_dzikir.xml" value="0.14722222222222223" />
+        <entry key="..\:/AndroidProject/DoadanDzikir/app/src/main/res/drawable/bg_dashboard_menu.xml" value="0.13425925925925927" />
+        <entry key="..\:/AndroidProject/DoadanDzikir/app/src/main/res/drawable/bg_item.xml" value="0.18" />
+        <entry key="..\:/AndroidProject/DoadanDzikir/app/src/main/res/drawable/bg_rv_dzikir_pagi.xml" value="0.22" />
+        <entry key="..\:/AndroidProject/DoadanDzikir/app/src/main/res/drawable/bg_rv_dzikir_petang.xml" value="0.18" />
+        <entry key="..\:/AndroidProject/DoadanDzikir/app/src/main/res/drawable/bg_splash_screen.xml" value="0.24114583333333334" />
+        <entry key="..\:/AndroidProject/DoadanDzikir/app/src/main/res/drawable/do_active.xml" value="1.25" />
+        <entry key="..\:/AndroidProject/DoadanDzikir/app/src/main/res/drawable/do_inactive.xml" value="0.75" />
+        <entry key="..\:/AndroidProject/DoadanDzikir/app/src/main/res/layout/activity_detail_artikel.xml" value="0.1453804347826087" />
+        <entry key="..\:/AndroidProject/DoadanDzikir/app/src/main/res/layout/activity_dzikir_pagi.xml" value="0.1453804347826087" />
+        <entry key="..\:/AndroidProject/DoadanDzikir/app/src/main/res/layout/activity_dzikir_petang.xml" value="0.225" />
+        <entry key="..\:/AndroidProject/DoadanDzikir/app/src/main/res/layout/activity_harian_dzikir_doa.xml" value="0.25" />
+        <entry key="..\:/AndroidProject/DoadanDzikir/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/AndroidProject/DoadanDzikir/app/src/main/res/layout/activity_pagi_petang_dzikir.xml" value="0.18" />
+        <entry key="..\:/AndroidProject/DoadanDzikir/app/src/main/res/layout/activity_qauliyah_shalat.xml" value="0.25" />
+        <entry key="..\:/AndroidProject/DoadanDzikir/app/src/main/res/layout/activity_setiap_saat_dzikir.xml" value="0.21" />
+        <entry key="..\:/AndroidProject/DoadanDzikir/app/src/main/res/layout/activity_splash_screen.xml" value="0.161231884057971" />
+        <entry key="..\:/AndroidProject/DoadanDzikir/app/src/main/res/layout/row_item_dzikir_doa.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
