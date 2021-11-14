@@ -12,7 +12,7 @@
         <entry key="..\:/AndroidProject/DoadanDzikir/app/src/main/res/drawable/bg_splash_screen.xml" value="0.24114583333333334" />
         <entry key="..\:/AndroidProject/DoadanDzikir/app/src/main/res/drawable/do_active.xml" value="1.25" />
         <entry key="..\:/AndroidProject/DoadanDzikir/app/src/main/res/drawable/do_inactive.xml" value="0.75" />
-        <entry key="..\:/AndroidProject/DoadanDzikir/app/src/main/res/layout/activity_detail_artikel.xml" value="0.1453804347826087" />
+        <entry key="..\:/AndroidProject/DoadanDzikir/app/src/main/res/layout/activity_detail_artikel.xml" value="0.1" />
         <entry key="..\:/AndroidProject/DoadanDzikir/app/src/main/res/layout/activity_dzikir_pagi.xml" value="0.1453804347826087" />
         <entry key="..\:/AndroidProject/DoadanDzikir/app/src/main/res/layout/activity_dzikir_petang.xml" value="0.225" />
         <entry key="..\:/AndroidProject/DoadanDzikir/app/src/main/res/layout/activity_harian_dzikir_doa.xml" value="0.25" />
@@ -21,6 +21,7 @@
         <entry key="..\:/AndroidProject/DoadanDzikir/app/src/main/res/layout/activity_qauliyah_shalat.xml" value="0.25" />
         <entry key="..\:/AndroidProject/DoadanDzikir/app/src/main/res/layout/activity_setiap_saat_dzikir.xml" value="0.21" />
         <entry key="..\:/AndroidProject/DoadanDzikir/app/src/main/res/layout/activity_splash_screen.xml" value="0.161231884057971" />
+        <entry key="..\:/AndroidProject/DoadanDzikir/app/src/main/res/layout/row_item_artikel.xml" value="0.1094224924012158" />
         <entry key="..\:/AndroidProject/DoadanDzikir/app/src/main/res/layout/row_item_dzikir_doa.xml" value="0.2" />
       </map>
     </option>

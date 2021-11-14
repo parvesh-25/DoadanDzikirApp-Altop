@@ -18,4 +18,22 @@
         <item name="android:windowBackground">@drawable/bg_splash_screen</item>
         <item name="android:statusBarColor">@color/blue</item>
     </style>
+
+    <style name="NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:statusBarColor">@color/blue</item>
+    </style>
+
+    <style name="PagiActivity" parent="Theme.DoaDanDzikir">
+        <item name="android:statusBarColor">@color/morning_blue</item>
+        <item name="colorPrimary">@color/morning_blue</item>
+        <item name="title">Dzikir Pagi</item>
+    </style>
+
+    <style name="PetangActivity" parent="Theme.DoaDanDzikir">
+        <item name="android:statusBarColor">@color/afternoon_orange</item>
+        <item name="colorPrimary">@color/afternoon_orange</item>
+        <item name="title">Dzikir Petang</item>
+    </style>
 </resources>

@@ -12,6 +12,7 @@ class PagiPetangDzikirActivity : AppCompatActivity(), View.OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_pagi_petang_dzikir)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         val cvDzikirPagi : CardView =findViewById(R.id.cv_dzikir_pagi)
         cvDzikirPagi.setOnClickListener(this)
@@ -35,6 +36,10 @@ class PagiPetangDzikirActivity : AppCompatActivity(), View.OnClickListener {
             R.id.cv_dzikir_petang -> startActivity(Intent(this, DzikirPetangActivity::class.java))
             R.id.btn_dzikir_petang -> startActivity(Intent(this, DzikirPetangActivity::class.java))
         }
+    }
+    override fun onSupportNavigateUp(): Boolean {
+        onBackPressed()
+        return true
     }
 }
 
