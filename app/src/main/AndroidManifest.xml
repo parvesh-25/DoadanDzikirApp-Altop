@@ -11,44 +11,44 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DoaDanDzikir">
         <activity
-            android:name=".DzikirPetangActivity"
+            android:name=".activity.DzikirPetangActivity"
             android:exported="true"
             android:theme="@style/PetangActivity"
             android:screenOrientation="portrait"
             tools:ignore = "LockedOrientationActivity"/>
         <activity
-            android:name=".DzikirPagiActivity"
+            android:name=".activity.DzikirPagiActivity"
             android:exported="true"
             android:theme="@style/PagiActivity"
             android:screenOrientation="portrait"
             tools:ignore = "LockedOrientationActivity"/>
         <activity
-            android:name=".DetailArtikelActivity"
+            android:name=".activity.DetailArtikelActivity"
             android:exported="true"
             android:screenOrientation="portrait"
             tools:ignore = "LockedOrientationActivity"/>
         <activity
-            android:name=".PagiPetangDzikirActivity"
+            android:name=".activity.PagiPetangDzikirActivity"
             android:exported="true"
             android:screenOrientation="portrait"
             tools:ignore = "LockedOrientationActivity"/>
         <activity
-            android:name=".HarianDzikirDoaActivity"
+            android:name=".activity.HarianDzikirDoaActivity"
             android:exported="true"
             android:screenOrientation="portrait"
             tools:ignore = "LockedOrientationActivity"/>
         <activity
-            android:name=".SetiapSaatDzikirActivity"
+            android:name=".activity.SetiapSaatDzikirActivity"
             android:exported="true"
             android:screenOrientation="portrait"
             tools:ignore = "LockedOrientationActivity"/>
         <activity
-            android:name=".QauliyahShalatActivity"
+            android:name=".activity.QauliyahShalatActivity"
             android:exported="true"
             android:screenOrientation="portrait"
             tools:ignore = "LockedOrientationActivity"/>
         <activity
-            android:name=".SplashScreenActivity"
+            android:name=".activity.SplashScreenActivity"
             android:exported="true"
             android:theme="@style/SplashTheme"
             android:screenOrientation="portrait"
@@ -60,7 +60,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".activity.MainActivity"
             android:exported="true"
             android:screenOrientation="portrait"
             tools:ignore = "LockedOrientationActivity"/>

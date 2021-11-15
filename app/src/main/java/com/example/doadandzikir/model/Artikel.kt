@@ -1,4 +1,4 @@
-package com.example.doadandzikir
+package com.example.doadandzikir.model
 
 data class Artikel(
     val titleArtikel : String,

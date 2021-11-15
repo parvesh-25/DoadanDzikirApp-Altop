@@ -1,12 +1,12 @@
-package com.example.doadandzikir
+package com.example.doadandzikir.activity
 
 import android.content.Intent
-import android.media.Image
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.ImageButton
 import androidx.cardview.widget.CardView
+import com.example.doadandzikir.R
 
 class PagiPetangDzikirActivity : AppCompatActivity(), View.OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {

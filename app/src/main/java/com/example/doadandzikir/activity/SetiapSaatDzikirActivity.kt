@@ -1,9 +1,12 @@
-package com.example.doadandzikir
+package com.example.doadandzikir.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.doadandzikir.model.DataDzikirDoa
+import com.example.doadandzikir.adapter.DzikirDoaAdapter
+import com.example.doadandzikir.R
 
 class SetiapSaatDzikirActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

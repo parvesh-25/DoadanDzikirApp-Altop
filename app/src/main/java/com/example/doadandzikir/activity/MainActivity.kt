@@ -1,4 +1,4 @@
-package com.example.doadandzikir
+package com.example.doadandzikir.activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -8,6 +8,9 @@ import android.widget.ImageView
 import android.widget.LinearLayout
 import androidx.core.content.ContextCompat
 import androidx.viewpager2.widget.ViewPager2
+import com.example.doadandzikir.model.Artikel
+import com.example.doadandzikir.R
+import com.example.doadandzikir.adapter.ArtikelAdapter
 
 class MainActivity : AppCompatActivity() {
 
@@ -20,11 +23,11 @@ class MainActivity : AppCompatActivity() {
         override fun onPageSelected(position: Int) {
             for (i in 0 until listArtikel.size){
                 dotSlider[i]?.setImageDrawable(
-                    ContextCompat.getDrawable(applicationContext,R.drawable.do_inactive)
+                    ContextCompat.getDrawable(applicationContext, R.drawable.do_inactive)
                 )
             }
             dotSlider[position]?.setImageDrawable(
-                ContextCompat.getDrawable(applicationContext,R.drawable.do_active)
+                ContextCompat.getDrawable(applicationContext, R.drawable.do_active)
             )
         }
     }
@@ -66,7 +69,7 @@ class MainActivity : AppCompatActivity() {
 
         dotSlider[0]?.setImageDrawable(
             ContextCompat.getDrawable(
-                applicationContext,R.drawable.do_active
+                applicationContext, R.drawable.do_active
             )
         )
     }
@@ -98,7 +101,7 @@ class MainActivity : AppCompatActivity() {
 
         val llDzikirDoaSholat: LinearLayout = findViewById(R.id.ll_dzikir_doa_sholat)
         llDzikirDoaSholat.setOnClickListener {
-            startActivity(Intent(this,QauliyahShalatActivity::class.java))
+            startActivity(Intent(this, QauliyahShalatActivity::class.java))
         }
 
         val llDzikirSetiapSaat = findViewById<LinearLayout>(R.id.ll_dzikir_setiap_saat)

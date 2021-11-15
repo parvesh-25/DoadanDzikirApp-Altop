@@ -1,9 +1,10 @@
-package com.example.doadandzikir
+package com.example.doadandzikir.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
 import android.widget.TextView
+import com.example.doadandzikir.R
 
 class DetailArtikelActivity : AppCompatActivity() {
 

@@ -1,11 +1,12 @@
-package com.example.doadandzikir
+package com.example.doadandzikir.adapter
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import org.w3c.dom.Text
+import com.example.doadandzikir.model.DzikirDoa
+import com.example.doadandzikir.R
 
 class DzikirDoaAdapter(private val listDzikirDoa: ArrayList<DzikirDoa>) //constructor untuk mengatribusikan data
     : RecyclerView.Adapter<DzikirDoaAdapter.MyViewHolder>() {
